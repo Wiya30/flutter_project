@@ -1,0 +1,37 @@
+name: gallery
+description: "Album"
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - images/pp1.jpg
+    - images/pp2.jpg
+    - images/pp3.jpg
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: fonts/Roboto-Regular.ttf
+    - family: Afacad
+      fonts:
+        - asset: fonts/AfacadFlux-VariableFont_slnt,wght.ttf
